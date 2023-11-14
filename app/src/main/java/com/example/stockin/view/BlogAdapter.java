@@ -13,8 +13,11 @@ import com.example.stockin.model.Blog;
 import java.util.List;
 
 public class BlogAdapter extends RecyclerView.Adapter<BlogViewHolder> {
+    public interface BlogClickListener {
+        void onBlogClicked(int position);
+    }
     private List<Blog> blogPosts;
-
+    private BlogClickListener clickListener;
     public BlogAdapter(List<Blog> blogPosts) {
         this.blogPosts = blogPosts;
     }

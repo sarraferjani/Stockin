@@ -6,8 +6,9 @@
     android:layout_height="wrap_content">
 
     <LinearLayout
-        android:layout_width="387dp"
-        android:layout_height="173dp"
+        android:id="@+id/blogDetails"
+        android:layout_width="384dp"
+        android:layout_height="168dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="11dp"
@@ -50,7 +51,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="43dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -64,11 +65,14 @@
                     android:id="@+id/blogUserName"
                     android:layout_width="183dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:text="Barbara Parker"
                     android:textColor="#878484" />
+
             </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
