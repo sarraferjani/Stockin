@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textCodeCommande"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code Commande"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <!-- Add TextViews for other columns as needed -->
+
+    <TextView
+        android:id="@+id/textCommandeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textCodeCommande"
+        android:layout_marginTop="8dp"
+        android:text="Commande Title"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textQte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textCommandeTitle"
+        android:layout_marginTop="8dp"
+        android:text="Quantité"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textAdresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textQte"
+        android:layout_marginTop="8dp"
+        android:text="Adresse"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAdresse"
+        android:layout_marginTop="8dp"
+        android:text="Total"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
